@@ -1,0 +1,24 @@
+*, body {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  background-color: $color-bg;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: 'Press Start 2P', sans-serif;
+
+    height: 3rem;
+    padding: 1rem;
+    color: $color-title;
+  }
+}
