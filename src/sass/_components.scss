@@ -21,4 +21,9 @@ body {
     padding: 1rem;
     color: $color-title;
   }
+
+  #content canvas {
+    width: 80rem !important;
+    height: 48rem !important;
+  }
 }
